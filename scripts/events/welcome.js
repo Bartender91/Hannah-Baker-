@@ -59,7 +59,7 @@ module.exports = {
 														});
 												} else {
 														api.changeNickname(nickNameBot, threadID, api.getCurrentUserID());
-														api.sendMessage({ body:  `✅ | Connected successfully!`, attachment: fs.createReadStream(`test2.jpeg`) }, idBox);
+														api.sendMessage({ body:  `✅ | Connected successfully!`, attachment: fs.createReadStream(`test.jpeg`) }, idBox);
 												}
 												return;
 										}
