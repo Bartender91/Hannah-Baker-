@@ -25,7 +25,7 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "ℝ𝕀𝕆",
+  "nickNameBot": "jmmy",
   "prefix": "+",
   "database": {
     "type": "sqlite",
@@ -38,14 +38,14 @@
   "credentials": {
     "gmailAccount": {
       "email": "engombe440@gmail.com",
-      "clientId": "599016089806-70i0l1c3f8gqsqkjrl59islf113a6rpv.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//04sc8mVyyZQYfCgYIARAAGAQSNwF-L9Ird6B6FtknlYNunt7DiMxL8vnErQkwR3To1NKmWJ_dt4DurEEg5GDgLrH1vx3FpMo0wP8",
+      "clientId": "967386972025-ocomeupejneffvhu04ivo8vetjc9r69e.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04gUjpMnYSiuWCgYIARAAGAQSNwF-L9IrJ-J_Ih_Y8QwA9he3UjUvSOWFDV4CiFZKJ2S7AyCXnlRteGRXhYmHKc6NeEB6QjmCyS4",
       "apiKey": ""
     },
     "gRecaptcha": {
-      "siteKey": "6LfiaLQoAAAAAMk524kfzx21cDdaByROHsMm2K9_",
-      "secretKey": "6LfiaLQoAAAAAK-6MbJ_AJvrRuTTyV5IA7C5ef9y"
+      "siteKey": "6LcG81IpAAAAAIDf3zlKw1xhty2FFZ0TxRBXUXyU",
+      "secretKey": "6LcG81IpAAAAACt0Ii5xk4kWlTbveaUWWAMJmDDP"
     }
   },
   "dashBoard": {
