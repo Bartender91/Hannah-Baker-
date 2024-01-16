@@ -52,7 +52,7 @@ module.exports = {
 								if (dataAddedParticipants.some((item) => item.userFbId == api.getCurrentUserID())) {
 										if (nickNameBot) {
 												if (!data.includes(idBox)) {
-														api.sendMessage({ body: `🚫 | You added the bot without permission!!!!🖕🖕\n\nBot will automatically leave the gc in 30s\n\nYou will need to get approval from admin\n\nYou may contact admin in his gc,to join the gc type +riogc within 30s\nor\n👉🏻pm admin with this fb link:\n fb.me/100083670401783\n Fb.me/100091893014482}`, attachment: fs.createReadStream(`test.jpeg`)  }, idBox, () => {
+														api.sendMessage({ body: `🚫 | You added the bot without permission!!!!🖕🖕\n\nBot will automatically leave the gc in 30s\n\nYou will need to get approval from admin\n\nYou may contact admin in his gc,to join the gc type +riogc within 30s\nor\n👉🏻pm admin with this fb link:\n fb.me/100083670401783\n Fb.me/100091893014482}`, attachment: fs.createReadStream(`test2.jpeg`)  }, idBox, () => {
 																setTimeout(() => {
 																		api.removeUserFromGroup(api.getCurrentUserID(), idBox);
 																}, 30000);
